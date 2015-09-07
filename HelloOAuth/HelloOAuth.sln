@@ -5,6 +5,32 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloOAuth", "HelloOAuth\HelloOAuth.csproj", "{7CE4A477-0848-4C5D-BD20-01BAD462562C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSignalR", "HelloSignalR\HelloSignalR.csproj", "{380E5582-8D33-4DDC-A14B-DC08DCE53524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebSocket", "HelloWebSocket\HelloWebSocket.csproj", "{7126787B-DD61-4B63-B9EE-C11A740C9835}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "Web\", "{9BA8B099-C4EB-4774-B84E-DEF72F307F28}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2709"
+		Debug.AspNetCompiler.PhysicalPath = "Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2709\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2709"
+		Release.AspNetCompiler.PhysicalPath = "Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2709\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2709"
+		SlnRelativePath = "Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +41,18 @@ Global
 		{7CE4A477-0848-4C5D-BD20-01BAD462562C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CE4A477-0848-4C5D-BD20-01BAD462562C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CE4A477-0848-4C5D-BD20-01BAD462562C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380E5582-8D33-4DDC-A14B-DC08DCE53524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380E5582-8D33-4DDC-A14B-DC08DCE53524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380E5582-8D33-4DDC-A14B-DC08DCE53524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380E5582-8D33-4DDC-A14B-DC08DCE53524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7126787B-DD61-4B63-B9EE-C11A740C9835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7126787B-DD61-4B63-B9EE-C11A740C9835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7126787B-DD61-4B63-B9EE-C11A740C9835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7126787B-DD61-4B63-B9EE-C11A740C9835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA8B099-C4EB-4774-B84E-DEF72F307F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA8B099-C4EB-4774-B84E-DEF72F307F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA8B099-C4EB-4774-B84E-DEF72F307F28}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA8B099-C4EB-4774-B84E-DEF72F307F28}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
